@@ -19,7 +19,6 @@
   "homepage": "https://github.com/JacobFischer/eslint-config#readme",
   "main": "index.js",
   "dependencies": {
-    "@typescript-eslint/parser": "2.32.0",
     "eslint-config-prettier": "6.11.0",
     "eslint-import-resolver-typescript": "2.0.0"
   },
@@ -31,6 +30,7 @@
     "typescript": "3.8.3"
   },
   "peerDependencies": {
+    "@typescript-eslint/parser": "^3.0.1",
     "@typescript-eslint/eslint-plugin": "^3.0.1",
     "eslint": "^7.0.0",
     "eslint-plugin-import": "^2.20.2",
