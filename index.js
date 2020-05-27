@@ -47,6 +47,7 @@ const baseEslintConfig = {
         // JSDoc
         "jsdoc/no-types": 1, // all jsdoc type rules disabled because TypeScript
         "jsdoc/require-param-type": "off",
+        "jsdoc/require-returns": [ENABLED_WARNING, { checkGetters: false }],
         "jsdoc/require-returns-type": "off",
         "jsdoc/no-undefined-types": "off",
         "jsdoc/check-indentation": [ENABLED_WARNING],
