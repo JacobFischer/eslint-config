@@ -8,7 +8,7 @@ if (!ESLINT_PATH_TSCONFIG || typeof ESLINT_PATH_TSCONFIG !== "string") {
     throw new Error("Cannot use this eslint config file with process.env.ESLINT_PATH_TSCONFIG set");
 }
 
-// const ENABLED_ERROR = "error";
+const ENABLED_ERROR = "error";
 const ENABLED_WARNING = "warn";
 
 /** @type {import("eslint").Linter.Config} */
@@ -41,8 +41,11 @@ const baseEslintConfig = {
         "prettier/@typescript-eslint",
     ],
     rules: {
+        "no-console": ENABLED_ERROR,
+
         // TypeScript
         "@typescript-eslint/explicit-function-return-type": "off", // For now does not allow enough control over arrow functions, always requiring return types even on simple reducers and such.
+        "@typescript-eslint/no-require-imports": ENABLED_ERROR,
 
         // JSDoc
         "jsdoc/no-types": 1, // all jsdoc type rules disabled because TypeScript
