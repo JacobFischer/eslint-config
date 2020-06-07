@@ -62,7 +62,7 @@ const baseEslintConfig = {
     },
     overrides: [
         {
-            files: ["*.js"],
+            files: ["*.js", "**/*.js"],
             rules: {
                 // For js files we assume they going through Node un-transpiled,
                 // so require must be used in those cases. For ts/tsx files
