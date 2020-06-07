@@ -60,6 +60,18 @@ const baseEslintConfig = {
             "always",
         ],
     },
+    overrides: [
+        {
+            files: ["*.js"],
+            rules: {
+                // For js files we assume they going through Node un-transpiled,
+                // so require must be used in those cases. For ts/tsx files
+                // assume a transpiler steps in so import syntax can be used.
+                "@typescript-eslint/no-require-imports": "off",
+                "@typescript-eslint/no-var-requires": "off",
+            },
+        },
+    ],
     settings: {
         "import/extensions": [".js", ".ts"],
         "import/resolver": {
