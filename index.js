@@ -69,6 +69,7 @@ const baseEslintConfig = {
                 // assume a transpiler steps in so import syntax can be used.
                 "@typescript-eslint/no-require-imports": "off",
                 "@typescript-eslint/no-var-requires": "off",
+                "@typescript-eslint/unbound-method": "off", // require statements trigger this
             },
         },
     ],
