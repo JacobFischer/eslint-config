@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+# We don't build any files, thus this dependency is used directory
+# so don't track some "normal" files
+package-lock.json

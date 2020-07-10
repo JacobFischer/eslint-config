@@ -19,26 +19,26 @@
   "homepage": "https://github.com/JacobFischer/eslint-config#readme",
   "main": "index.js",
   "dependencies": {
-    "@typescript-eslint/parser": "3.0.1",
+    "@typescript-eslint/parser": "3.6.0",
     "eslint-config-prettier": "6.11.0",
     "eslint-import-resolver-typescript": "2.0.0"
   },
   "devDependencies": {
-    "@types/eslint": "6.8.0",
+    "@types/eslint": "7.2.0",
     "eslint": "7.0.0",
-    "npm-check-updates": "5.0.0",
+    "npm-check-updates": "7.0.1",
     "prettier": "2.0.5",
     "typescript": "3.8.3"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">=3.0.1",
-    "eslint": ">=7.0.0",
-    "eslint-plugin-import": ">=2.20.2",
+    "@typescript-eslint/eslint-plugin": ">=3.6.0",
+    "eslint": ">=7.4.0",
+    "eslint-plugin-import": ">=2.22.0",
     "eslint-plugin-import-order-alphabetical": ">=1.0.0",
-    "eslint-plugin-jsdoc": ">=25.4.3",
-    "eslint-plugin-prettier": ">=3.1.3",
+    "eslint-plugin-jsdoc": ">=29.1.3",
+    "eslint-plugin-prettier": ">=3.1.4",
     "prettier": ">=2.0.5",
-    "typescript": ">=3.9.3"
+    "typescript": ">=3.9.6"
   },
   "scripts": {
     "ncu": "ncu -u"
