@@ -24,7 +24,6 @@ const baseEslintConfig = {
     },
     plugins: [
         "@typescript-eslint",
-        "eslint-plugin-import-order-alphabetical",
         "jsdoc",
         "import",
     ],
