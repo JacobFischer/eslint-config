@@ -80,7 +80,7 @@ const baseEslintConfig = {
             },
             typescript: {
                 alwaysTryTypes: true,
-                directory: dirname(ESLINT_PATH_TSCONFIG),
+                project: dirname(ESLINT_PATH_TSCONFIG),
             },
         },
         "import/parsers": {
