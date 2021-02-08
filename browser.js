@@ -1,11 +1,11 @@
 // @ts-check
 
-/** @type {import("eslint").Linter.Config} */
+/** @type {import('eslint').Linter.Config} */
 const nodeEslintConfig = {
-    env: {
-        browser: true,
-    },
-    extends: ["./index.js"],
+  env: {
+    browser: true,
+  },
+  extends: ['./index.js'],
 };
 
 module.exports = nodeEslintConfig;

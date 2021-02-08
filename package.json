@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jacobfischer",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "My simple eslint config for TS + JS + Prettier",
   "author": "Jacob Fischer",
   "license": "MIT",
