@@ -36,7 +36,6 @@ const baseEslintConfig = {
     'plugin:import/typescript',
     'plugin:jsdoc/recommended',
     'plugin:prettier/recommended',
-    'prettier/@typescript-eslint',
   ],
   rules: {
     'no-console': ENABLED_ERROR,
